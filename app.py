@@ -96,6 +96,13 @@ if menu == "Dashboard":
 
         st.bar_chart(chart_data)
 
+        st.subheader("All Assignments")
+
+        st.dataframe(
+            df,
+            use_container_width=True
+        )
+
     else:
 
         st.info(
