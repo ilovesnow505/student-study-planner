@@ -164,6 +164,8 @@ elif menu == "Add Assignment":
                 "Assignment Added Successfully!"
             )
 
+            st.rerun()
+
         else:
 
             st.warning(
@@ -256,6 +258,8 @@ elif menu == "Update Assignment":
                 "Assignment Updated!"
             )
 
+            st.rerun()
+
         st.subheader(
             "Delete Assignment"
         )
@@ -275,6 +279,8 @@ elif menu == "Update Assignment":
             st.success(
                 "Assignment Deleted!"
             )
+
+            st.rerun()
 
     else:
 
